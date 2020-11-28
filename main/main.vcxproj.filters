@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Levels">
+      <UniqueIdentifier>{fa3dfa0c-73f2-4e4b-8bb3-e62e60d225c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Images">
+      <UniqueIdentifier>{db9dbf4f-7010-4c75-9c61-91a76a02205d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Easy_Level">
+      <UniqueIdentifier>{e826c5fd-2af7-4a81-aa37-66ce72c83240}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Easy.cpp">
+      <Filter>Исходные файлы\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal.cpp">
+      <Filter>Исходные файлы\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Hard.cpp">
+      <Filter>Исходные файлы\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libheader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="easy.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="easybl.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="exit.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="hard.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="hardbl.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="mainmenufon.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="normal.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="normalbl.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="rules.bmp">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="easy_level\0.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\1.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\2.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\3.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\4.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\5.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\6.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\7.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\8.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\bomb.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\bomb_w_flag.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\flag.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\grass.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\rp.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\vp.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+    <Image Include="easy_level\wall.bmp">
+      <Filter>Файлы ресурсов\Easy_Level</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="main.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
